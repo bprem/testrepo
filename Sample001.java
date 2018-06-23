@@ -22,7 +22,7 @@ public class Sample001 {
 		driver.switchTo().alert().accept();
 		
 		 File ss = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
-		 FileUtils.copyFile(ss, new File("D:\\screenshot\\error.png"));
+		 FileUtils.copyFile(ss, new File("D:\\test\\error.png"));
 
 	}
 
